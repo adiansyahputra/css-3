@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+/* 
+Filter
+blur(px)
+brightness(angka | %)
+contrast(angka | %)
+saturate(angka | %)
+grayscale(angka | %)
+sepia(angka | %)
+hue-rotate(deg)
+invert(angka | %)
+opacity(angka | %)
+drop-shadow(sama seperti box-shadow)
+
+https://cssgenerator.org/filter-css-generator.html
+
+*/
+
+img {
+  width: 200px;
+  height: 200px;
+  filter: drop-shadow(5px 5px 5px black) saturate(200%);
+}

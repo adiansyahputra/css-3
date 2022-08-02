@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  filter: grayscale(100%);
+  /* contoh penggunaan vendor prefix
+    -webkit-filter: grayscale(100%);
+  */
+}

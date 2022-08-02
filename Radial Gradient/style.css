@@ -1,0 +1,21 @@
+/* 
+Radial Gradient
+
+Sintaks sederhana
+  background-image: radial-gradient(<warna-awal>, <warna-akhir>);
+  background-image: radial-gradient(red, blue);
+
+  Multiple Color: background-image: radial-gradient(red, blue, green);
+  Color stop: background-image: radial-gradient(red 10%, blue 20%, green 80%);
+  
+
+Sintaks Lengkap
+  background-image: radial-gradient(
+    <tipe> <jangkauan> at <posisi-y> <posisi-x>,
+    <warna-1>, <warna-2>, ..., <warna-n>);
+
+    tipe: ellipse, circle
+    jangkauan: closest-corner, closest-side, farthest-corner, farthest-side
+    posisi-y : top, center, bottom, px
+    posisi-x : left, center, right, px
+*/
